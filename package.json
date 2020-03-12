@@ -1,0 +1,14 @@
+{
+  "name": "kata-unit-testing-practise",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --verbose --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
