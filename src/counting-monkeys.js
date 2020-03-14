@@ -1,13 +1,9 @@
 
 const monkeyCount = (number) => {
-   /* const myArray = [];
-  for (let i = 1; i<=n ; i++)
+  const myArray = [];
+  for (let i = 1; i<=number ; i++)
     myArray.push(i);
-  return myArray;*/
-  let arr = [1,2,3,4,5,6,7,8];
-  return arr;
-
-    
+  return myArray;   
     }
 
-exports.module = {monkeyCount};
+module.exports = monkeyCount;
