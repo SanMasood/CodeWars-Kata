@@ -1,5 +1,4 @@
-const arrayManipulation = require("../src/array-manipulation");
-//const arrayLength = require (../src/array-manipulation);
+const {arrayLength, arraynthElement} = require("../src/array-manipulation");
 
 const numArray = [1,2,3,4,5,6,7,8,9,0];
 const namesArray = ['Samia', 'Sara', 'Sana'];
@@ -9,10 +8,10 @@ describe('arrayLength', () => {
      
         expect(arrayLength(numArray)).toEqual(10);
         expect(arrayLength(namesArray)).toEqual(3);
-    })
+    });
 
 })
-/*
+
 describe('arraynthElement', () => {
     it("returns nth element of array", ()=> {
      
@@ -20,5 +19,5 @@ describe('arraynthElement', () => {
         expect(arraynthElement(namesArray, 1)).toEqual('Sara');
     });
 
-})*/
+})
 
